@@ -27,25 +27,27 @@ const SideBar: React.FC = () => {
             title="Talvez você curta"
             elements={[
               <FollowSuggestion
-                name="Maria Eduarda"
-                nickname="@Ma_Du"
+                name="Steffany Mattei"
+                nickname="@stefmattei"
               />,
-              <FollowSuggestion name="Gabriela Schiavo" nickname="@SchiavoGabi" />,
               <FollowSuggestion
-                name="Amanda Loren"
-                nickname="@amanda01"
+                name="Graziela Torres"
+                nickname="@grazielatrres"
               />,
+              <FollowSuggestion
+                name="Eduardo Schiavo"
+                nickname="@failed7934"
+              />,
+              <FollowSuggestion
+                name="Gabriel Mello"
+                nickname="@gabriel.fe.mello"
+              />,
+              <FollowSuggestion name="Maria Eduarda" nickname="@mariacw" />,
             ]}
           />
           <List
             title="O que está acontecendo"
-            elements={[
-              <News />,
-              <News />,
-              <News />,
-              <News />,
-              <News />,
-            ]}
+            elements={[<News />, <News />, <News />, <News />, <News />]}
           />
         </Body>
       </StickyBox>

@@ -23,8 +23,8 @@ const ProfilePage: React.FC = () => {
       <ProfileData>
         <EditButton outlined>Editar perfil</EditButton>
 
-        <h1>Lucas Guimarães</h1>
-        <h2>@luquinhas</h2>
+        <h1>Lucas Ziro</h1>
+        <h2>@zzziiro</h2>
 
         <p>
           Developer at <a href="https://tiflux.com/">@Tiflux</a>
@@ -33,7 +33,7 @@ const ProfilePage: React.FC = () => {
         <ul>
           <li>
             <LocationIcon />
-            Joinville, Brasil
+            Balneário Barra do Sul
           </li>
           <li>
             <CakeIcon />
